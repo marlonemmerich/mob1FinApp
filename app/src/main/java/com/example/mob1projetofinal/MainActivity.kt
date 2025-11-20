@@ -17,7 +17,8 @@ class MainActivity : AppCompatActivity() {
 
         // Navegação para tela de cadastro
         btnCadastro.setOnClickListener {
-            //TODO
+            val intent = Intent(this, CadastroActivity::class.java)
+            startActivity(intent)
         }
 
         // Navegação para tela de extrato
