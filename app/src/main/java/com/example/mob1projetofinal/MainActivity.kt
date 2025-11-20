@@ -23,7 +23,8 @@ class MainActivity : AppCompatActivity() {
 
         // Navegação para tela de extrato
         btnExtrato.setOnClickListener {
-            //TODO
+            val intent = Intent(this, ExtratoActivity::class.java)
+            startActivity(intent)
         }
 
         // Fecha o aplicativo

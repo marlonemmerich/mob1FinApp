@@ -6,4 +6,8 @@ object TransacaoRepository {
     fun adicionar(transacao: Transacao) {
         transacoes.add(transacao)
     }
+
+    fun obterTodas(): List<Transacao> {
+        return transacoes
+    }
 }
